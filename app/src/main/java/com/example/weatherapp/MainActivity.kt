@@ -16,14 +16,14 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-//8e0b40ecf7574d0c0141b82b336f72a7
+
 class MainActivity : AppCompatActivity() {
 
     private val binding: ActivityMainBinding by lazy {
         ActivityMainBinding.inflate(layoutInflater)
     }
 
-    // Define your API key as a constant
+    
     private val API_KEY = "8e0b40ecf7574d0c0141b82b336f72a7"
 
     override fun onCreate(savedInstanceState: Bundle?) {
